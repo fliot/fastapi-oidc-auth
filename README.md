@@ -25,7 +25,7 @@ from fastapi import Request
 from fastapi_oidc_auth.auth import OpenIDConnect
 
 # realm (e.g. Keycloak instance)
-host = "http://localhost:8080"
+host = "http://localhost:8080/auth"
 realm = "example-realm"
 client_id = "example-client"
 client_secret = "xxx765cd-20ba-44a3-9584-784807a36906"
